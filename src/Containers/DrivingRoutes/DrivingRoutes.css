@@ -1,0 +1,52 @@
+.card {
+    background-color:white;
+    padding:2px 10px;
+    box-shadow: 0px 2px 3px #ccc;
+}
+  
+
+.card-header {
+
+    display:flex;
+    justify-content:space-between;
+    background-color:#ecf0f1;
+    padding: 10px;
+    box-shadow: 0px 2px 5px #ccc;
+}
+  
+.card i {
+    word-spacing: 2px;
+    line-height:1.6;
+    letter-spacing:12px;
+}
+
+.card div{
+    margin-bottom: 20px;
+}
+
+  
+.fa-compass {
+    color: #9b59b6;
+    margin:0px 5px;
+    font-size: 20px;
+    animation: rotating 2s linear infinite;
+}
+
+.fa-hourglass-start {
+    color:#919394;
+    margin:0px 5px;
+    animation: rotating 2s linear infinite;
+
+}
+
+
+@keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+

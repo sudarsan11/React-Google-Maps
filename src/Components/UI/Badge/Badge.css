@@ -1,0 +1,15 @@
+.Badge{
+    background-color:#9b59b6;
+    border-radius:20px;
+    padding:2px 20px;
+    margin:5px;
+}
+
+
+.Primary {
+    color:white;
+}
+
+.Secondary {
+    background-color:#ecf0f1;
+}

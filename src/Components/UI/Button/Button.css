@@ -1,0 +1,20 @@
+.Button {
+    font-weight:bold;
+    padding: 10px 30px;
+    border-radius:30px;
+    display: flex;
+    border:0px;
+    margin: auto;
+    cursor: pointer;
+}
+   
+.Primary-Button {
+    background: white;
+    color:#9b59b6;
+}
+    
+.Primary-Button:hover {
+    border: 1px solid white;
+    background:#9b59b6;
+    color:white;
+}
