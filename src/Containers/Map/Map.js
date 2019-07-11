@@ -29,7 +29,7 @@ class Map extends Component {
 
     // Load the Google Maps API and add a global callback
     renderMap = () =>{
-        loadScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyADJN_luWnBFqO6oCenvFdiQ2pZTsunUUM&libraries=places&callback=initMap');
+        loadScript('https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&libraries=places&callback=initMap');
         window.initMap = this.initMap;
     }
 
